@@ -1,0 +1,7 @@
+
+State Machine - |Brick_Escape|Controller:controller|current_state
+Name current_state.S_WAIT_SCREEN current_state.S_UPDATE_ENEMY current_state.S_UPDATE_PLAYER current_state.S_PRINT_PATH 
+current_state.S_PRINT_PATH 0 0 0 0 
+current_state.S_UPDATE_PLAYER 0 0 1 1 
+current_state.S_UPDATE_ENEMY 0 1 0 1 
+current_state.S_WAIT_SCREEN 1 0 0 1 
